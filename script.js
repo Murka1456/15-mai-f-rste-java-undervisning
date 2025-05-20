@@ -52,12 +52,18 @@ const h1Element = document.getElementById("changeText");
  } */
  //
  //
- const addText = document.getElementById("AddText");
+ const addText = document.getElementById("addText");
  console.log(addText);
  addText.addEventListener("click",function(){
-
+    console.log("Button cliked?");
  });
- console.log("Button cliked?");
+ /*Steg 1*/
+ const reciveText = document.getElementById("reciveText");
+ /*Steg 2 lag en variable som heter text med en st*/
+ const text = " Det er sol i Bergen i dag"
+ /*Steg 3 gjør at variable recivetext motar innholdet til text med text Content*/
+ reciveText.textContent = text;
+
 
 
 
