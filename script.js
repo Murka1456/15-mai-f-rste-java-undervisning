@@ -67,7 +67,7 @@ const h1Element = document.getElementById("changeText");
 const about = document.getElementById("about");
 console.log("about");
 about.addEventListener("change", function(){
-   console.log("Button cliked?")
+console.log("Button cliked?")
 }
 );
 
