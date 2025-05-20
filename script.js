@@ -64,11 +64,22 @@ const h1Element = document.getElementById("changeText");
  /*Steg 3 gjør at variable recivetext motar innholdet til text med text Content*/
  reciveText.textContent = text;
 
-const about = document.getElementById("about");
-console.log("about");
-about.addEventListener("change", function(){
+const Prosjekt = document.getElementById("Prosjekt");
+
+Prosjekt.addEventListener("click", function(){
 console.log("Button cliked?")
+console.log("Prosjekt");
 }
 );
+function clickButton ("kontakt") {
+   const Kontakt = document.getElementById("chenge Text");
+   Kontakt.addEventListener("copy",function(){
+      console.log("kontakt");
+
+      const newText = "finn meg på github";
+      Kontakt.textContent = newText;
+}
+};
+
 
 
