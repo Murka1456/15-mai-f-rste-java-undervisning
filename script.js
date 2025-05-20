@@ -88,7 +88,7 @@ const Send = document.getElementById("Send");
 Send.addEventListener("click",function(){
    console.log("Send")
    const newText = "ferdig";
-   Send.textContent = text;
+   Send.textContent = newText;
 
 });
 
