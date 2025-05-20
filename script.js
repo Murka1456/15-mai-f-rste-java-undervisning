@@ -45,11 +45,19 @@ const h1Element = document.getElementById("changeText");
  /*Bruker variabelen Button Element fornå legge til en hendelse lytter som */
 /*??*/
  buttonElement.addEventListener("click",clickButton);
- function?(){
+ /*function?(){
     const? = document.getElementById("?");
     const ? = "?";
     ?.textContent = ?;
- } 
+ } */
+ //
+ //
+ const addText = document.getElementById("AddText");
+ console.log(addText);
+ addText.addEventListener("click",function(){
+
+ });
+ console.log("Button cliked?");
 
 
 
