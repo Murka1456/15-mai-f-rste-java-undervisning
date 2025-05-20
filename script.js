@@ -25,17 +25,31 @@ function hellowFunction(){
 } 
  hellowFunction();
  //
- //
+ //*sette en function med navnet ClickButton som tar en blokk 
+//  med kode som skal  gjøres samtidig//
  function clickButton(){
-    const h1Element = document.getElementById("changeText"); 
+const h1Element = document.getElementById("changeText"); 
      //document.querySelector("#changeText");
+//* Lager en variabel h1Element til console for 
+//* å skjekke at vi hentet riktig HTML med id-navn changeText*//
+//* Logger variablen h1Element til console for å skjekke at vi henter
+//*riktig 
     console.log(h1Element);
     const newText = "Velkommen til min side!";
     h1Element.textContent = newText;
+    //*  Logger variablen h1Element for tekst innhold fra variabelen newText*/
  }
  //clickButton(); vi tar vekk den
  const buttonElement = document.getElementById("button");
  console.log( buttonElement);
+ /*Bruker variabelen Button Element fornå legge til en hendelse lytter som */
+/*??*/
  buttonElement.addEventListener("click",clickButton);
+ function?(){
+    const? = document.getElementById("?");
+    const ? = "?";
+    ?.textContent = ?;
+ } 
+
 
 
