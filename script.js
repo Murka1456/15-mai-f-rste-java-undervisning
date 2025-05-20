@@ -64,6 +64,8 @@ const h1Element = document.getElementById("changeText");
  /*Steg 3 gjør at variable recivetext motar innholdet til text med text Content*/
  reciveText.textContent = text;
 
-
+const about = document.getElementById("about");
+console.log("about");
+about.addEventListener()
 
 
