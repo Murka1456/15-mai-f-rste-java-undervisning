@@ -33,7 +33,9 @@ function hellowFunction(){
     const newText = "Velkommen til min side!";
     h1Element.textContent = newText;
  }
- clickButton();
+ //clickButton(); vi tar vekk den
  const buttonElement = document.getElementById("button");
  console.log( buttonElement);
- 
+ buttonElement.addEventListener("click",clickButton);
+
+
