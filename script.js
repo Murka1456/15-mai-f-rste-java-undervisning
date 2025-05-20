@@ -71,15 +71,25 @@ console.log("Button cliked?")
 console.log("Prosjekt");
 }
 );
-function clickButton ("kontakt") {
-   const Kontakt = document.getElementById("chenge Text");
-   Kontakt.addEventListener("copy",function(){
+   const Kontakt = document.getElementById("kontakt");
+   Kontakt.addEventListener("click",function (){
       console.log("kontakt");
 
       const newText = "finn meg på github";
       Kontakt.textContent = newText;
-}
-};
+});
+const Order = document.getElementById("Order");
+Order.addEventListener("click",function (){
+  console.log("Button clicked?")
+   console.log("Order");
 
+});
+const Send = document.getElementById("Send");
+Send.addEventListener("click",function(){
+   console.log("Send")
+   const newText = "ferdig";
+   Send.textContent = text;
+
+});
 
 
